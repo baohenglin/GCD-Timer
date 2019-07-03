@@ -11,6 +11,7 @@
 2.开启定时器
 
 ```
+//doTask方法是待轮询任务。
 self.task =  [HLTimer executeTask:self selector:@selector(doTask) start:2.0 interval:1.0 repeats:YES async:YES];
 ```
 
